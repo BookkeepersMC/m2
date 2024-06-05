@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.crypticverse.betterbiomes</groupId>
+  <artifactId>BetterBiomes-Forge</artifactId>
+  <version>2.1.5.1-1.20.4</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.glitchfiend</groupId>
+      <artifactId>TerraBlender-forge</artifactId>
+      <version>1.20.4-3.3.0.4_mapped_parchment_2024.02.25-1.20.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bookkeepersmc</groupId>
+      <artifactId>Notebook-api-forge-1.20.4</artifactId>
+      <version>1.1.10+1.20.4_mapped_parchment_2024.02.25-1.20.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.shedaniel.cloth</groupId>
+      <artifactId>cloth-config-forge</artifactId>
+      <version>13.0.121_mapped_parchment_2024.02.25-1.20.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.architectury</groupId>
+      <artifactId>architectury-forge</artifactId>
+      <version>11.1.17_mapped_parchment_2024.02.25-1.20.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.minecraftforge</groupId>
+      <artifactId>forge</artifactId>
+      <version>1.20.4-49.0.34_mapped_parchment_2024.02.25-1.20.4_at_e7c89277e11f08510f306cec579f6fb9a3d2e36a</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.shedaniel</groupId>
+      <artifactId>RoughlyEnoughItems-forge</artifactId>
+      <version>14.0.688_mapped_parchment_2024.02.25-1.20.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
