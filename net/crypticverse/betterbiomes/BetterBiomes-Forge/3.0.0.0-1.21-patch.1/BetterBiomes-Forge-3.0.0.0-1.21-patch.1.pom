@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.crypticverse.betterbiomes</groupId>
+  <artifactId>BetterBiomes-Forge</artifactId>
+  <version>3.0.0.0-1.21-patch.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.glitchfiend</groupId>
+      <artifactId>TerraBlender-forge</artifactId>
+      <version>1.21-4.0.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jopt-simple</groupId>
+      <artifactId>jopt-simple</artifactId>
+      <version>5.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.minecraftforge</groupId>
+      <artifactId>forge</artifactId>
+      <version>1.21-51.0.8_mapped_official_1.21_at_e7c89277e11f08510f306cec579f6fb9a3d2e36a</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
