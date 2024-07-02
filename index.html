@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-Hello! Currently, this maven is public/private.
-<p>
-You currently cannot view any content on this page, but can still use it’s resources inside your project!
-</p>
-Just add:
-<p>
-Gradle
-maven {url = "https://bookkeepersmc.github.io/m2" }
-Maven
-<repository>
-    <id>Bookkeepers-Repo</id>
-    <url>https://bookkeepersmc.github.io/m2</url>
-</repository>
-</p>
-</html>
+<link rel="stylesheet" href="custom.css">
+<p>Hello!
+Currently, this maven is public/private.</p>
+<p>You currently cannot view any content on this page, but can still use it&#39;s resources inside your project!</p>
+<p>Just add:</p>
+<h3 id="gradle">Gradle</h3>
+<pre><code class="lang-gradle"><span class="hljs-section">maven</span> {<span class="hljs-attribute">url</span> = <span class="hljs-string">"https://bookkeepersmc.github.io/m2"</span> }
+</code></pre>
+<h3 id="maven">Maven</h3>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">repository</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">id</span>&gt;</span>Bookkeepers-Repo<span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url</span>&gt;</span>https://bookkeepersmc.github.io/m2<span class="hljs-tag">&lt;/<span class="hljs-name">url</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">repository</span>&gt;</span>
+</code></pre>
