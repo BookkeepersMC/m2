@@ -3,11 +3,12 @@
   <groupId>com.bookkeepersmc</groupId>
   <artifactId>notebook-loader-junit</artifactId>
   <versioning>
-    <latest>0.1.0</latest>
-    <release>0.1.0</release>
+    <latest>0.2.0+local</latest>
+    <release>0.2.0+local</release>
     <versions>
       <version>0.1.0</version>
+      <version>0.2.0+local</version>
     </versions>
-    <lastUpdated>20240425165404</lastUpdated>
+    <lastUpdated>20240712123918</lastUpdated>
   </versioning>
 </metadata>
