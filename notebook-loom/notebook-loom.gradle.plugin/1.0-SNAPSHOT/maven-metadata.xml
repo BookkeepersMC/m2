@@ -3,16 +3,16 @@
   <groupId>notebook-loom</groupId>
   <artifactId>notebook-loom.gradle.plugin</artifactId>
   <versioning>
-    <lastUpdated>20240723224816</lastUpdated>
+    <lastUpdated>20240723225238</lastUpdated>
     <snapshot>
-      <timestamp>20240723.224816</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20240723.225238</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20240723.224816-6</value>
-        <updated>20240723224816</updated>
+        <value>1.0-20240723.225238-7</value>
+        <updated>20240723225238</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
