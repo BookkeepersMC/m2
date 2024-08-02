@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bookkeepersmc",
+    "module": "notebook-loader-junit",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.bookkeepersmc",
+          "module": "notebook-loader",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.10.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine"
+        }
+      ],
+      "files": [
+        {
+          "name": "notebook-loader-junit-0.3.0.jar",
+          "url": "notebook-loader-junit-0.3.0.jar",
+          "size": 2587,
+          "sha512": "ab8791dde7202980e87b34f028cd00ef316b6fcd3de1bbd5e144227deb8b01365606f0a1f2b7dd4fad46c6631743c2477e3fbdeb0b18f720f0c688bd0ca93500",
+          "sha256": "2cdc60f80455af539e8356be4b200ab3231c85c3f9b01294abe231a123cd0377",
+          "sha1": "6586cf1a9a77fe4c351e3f9cb2acea099b080f59",
+          "md5": "700e99dd82c9862f325fc8db326de54c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-launcher"
+        },
+        {
+          "group": "com.bookkeepersmc",
+          "module": "notebook-loader",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.10.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine"
+        }
+      ],
+      "files": [
+        {
+          "name": "notebook-loader-junit-0.3.0.jar",
+          "url": "notebook-loader-junit-0.3.0.jar",
+          "size": 2587,
+          "sha512": "ab8791dde7202980e87b34f028cd00ef316b6fcd3de1bbd5e144227deb8b01365606f0a1f2b7dd4fad46c6631743c2477e3fbdeb0b18f720f0c688bd0ca93500",
+          "sha256": "2cdc60f80455af539e8356be4b200ab3231c85c3f9b01294abe231a123cd0377",
+          "sha1": "6586cf1a9a77fe4c351e3f9cb2acea099b080f59",
+          "md5": "700e99dd82c9862f325fc8db326de54c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "notebook-loader-junit-0.3.0-sources.jar",
+          "url": "notebook-loader-junit-0.3.0-sources.jar",
+          "size": 2659,
+          "sha512": "d7d2d814f3a4eebd8a406ab7632f4dba1f801aa4feb2e6dcbaa1da50e1db8b58fed1341668b132564001526aec59144df098575c79df6df10321054716e02939",
+          "sha256": "e60b5df184c220f1abcb3475f0c4327bab32ed6f6d2349e8268dd5649cbe46a3",
+          "sha1": "d65a6b00396c5bc2068b185faded8357a9bff310",
+          "md5": "f2be6addee8be4ad708934cbf2bbf420"
+        }
+      ]
+    }
+  ]
+}
