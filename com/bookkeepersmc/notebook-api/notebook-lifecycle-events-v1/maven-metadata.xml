@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.bookkeepersmc.notebook-api</groupId>
+  <artifactId>notebook-lifecycle-events-v1</artifactId>
+  <versioning>
+    <latest>1.0.0+5a54c2a86a</latest>
+    <release>1.0.0+5a54c2a86a</release>
+    <versions>
+      <version>1.0.0+5a54c2a86a</version>
+    </versions>
+    <lastUpdated>20240808194545</lastUpdated>
+  </versioning>
+</metadata>

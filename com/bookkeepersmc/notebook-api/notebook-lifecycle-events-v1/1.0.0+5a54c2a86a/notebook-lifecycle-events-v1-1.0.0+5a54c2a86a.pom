@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bookkeepersmc.notebook-api</groupId>
+  <artifactId>notebook-lifecycle-events-v1</artifactId>
+  <version>1.0.0+5a54c2a86a</version>
+  <name>Notebook Lifecycle Events (v1)</name>
+  <url>https://github.com/FabricMC/fabric/tree/HEAD/notebook-lifecycle-events-v1</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/FabricMC/fabric/blob/HEAD/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>FabricMC</name>
+      <url>https://fabricmc.net/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/FabricMC/fabric.git</connection>
+    <developerConnection>scm:git:git@github.com:FabricMC/fabric.git</developerConnection>
+    <url>https://github.com/FabricMC/fabric</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/FabricMC/fabric/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.bookkeepersmc.notebook-api</groupId>
+      <artifactId>notebook-api-base</artifactId>
+      <version>1.0.0+9adb913b6a</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
