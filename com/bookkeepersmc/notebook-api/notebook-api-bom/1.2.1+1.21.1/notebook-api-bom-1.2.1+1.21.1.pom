@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bookkeepersmc.notebook-api</groupId>
+  <artifactId>notebook-api-bom</artifactId>
+  <version>1.2.1+1.21.1</version>
+  <packaging>pom</packaging>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-api</artifactId>
+        <version>1.2.1+1.21.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-api-deprecated</artifactId>
+        <version>1.2.1+1.21.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-api-base</artifactId>
+        <version>1.0.0+9adb913b19</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-api-catalog</artifactId>
+        <version>1.2.1+1.21.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-common-tags-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-datagen-api-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-keybind-api-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-lifecycle-events-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-mods-screen-v0</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-networking-api-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-recipe-api-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-registry-sync-v0</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-resource-conditions-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-resource-loader-v0</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+      <dependency>
+        <groupId>com.bookkeepersmc.notebook-api</groupId>
+        <artifactId>notebook-screen-api-v1</artifactId>
+        <version>1.0.0+5a54c2a819</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

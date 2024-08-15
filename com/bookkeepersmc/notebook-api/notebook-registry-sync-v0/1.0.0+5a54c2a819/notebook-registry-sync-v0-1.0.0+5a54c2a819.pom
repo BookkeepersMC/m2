@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bookkeepersmc.notebook-api</groupId>
+  <artifactId>notebook-registry-sync-v0</artifactId>
+  <version>1.0.0+5a54c2a819</version>
+  <name>Notebook Registry Sync (v0)</name>
+  <url>https://github.com/Bookkeepersmc/Notebook/tree/HEAD/notebook-registry-sync-v0</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Bookkeepersmc/notebook/blob/HEAD/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/Bookkeepersmc/notebook.git</connection>
+    <developerConnection>scm:git:git@github.com:Bookkeepersmc/notebook.git</developerConnection>
+    <url>https://github.com/Bookkeepersmc/notebook</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/Bookkeepersmc/notebook/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.bookkeepersmc.notebook-api</groupId>
+      <artifactId>notebook-api-base</artifactId>
+      <version>1.0.0+9adb913b19</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bookkeepersmc.notebook-api</groupId>
+      <artifactId>notebook-networking-api-v1</artifactId>
+      <version>1.0.0+5a54c2a819</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

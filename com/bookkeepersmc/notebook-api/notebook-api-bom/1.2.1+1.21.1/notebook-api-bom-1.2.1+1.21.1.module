@@ -1,0 +1,246 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bookkeepersmc.notebook-api",
+    "module": "notebook-api-bom",
+    "version": "1.2.1+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api-deprecated",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api-base",
+          "version": {
+            "requires": "1.0.0+9adb913b19"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api-catalog",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-common-tags-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-datagen-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-keybind-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-lifecycle-events-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-mods-screen-v0",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-networking-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-recipe-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-registry-sync-v0",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-resource-conditions-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-resource-loader-v0",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-screen-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api-deprecated",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api-base",
+          "version": {
+            "requires": "1.0.0+9adb913b19"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-api-catalog",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-common-tags-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-datagen-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-keybind-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-lifecycle-events-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-mods-screen-v0",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-networking-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-recipe-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-registry-sync-v0",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-resource-conditions-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-resource-loader-v0",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc.notebook-api",
+          "module": "notebook-screen-api-v1",
+          "version": {
+            "requires": "1.0.0+5a54c2a819"
+          }
+        }
+      ]
+    }
+  ]
+}
