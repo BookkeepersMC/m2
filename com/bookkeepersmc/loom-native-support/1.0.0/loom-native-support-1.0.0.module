@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bookkeepersmc",
+    "module": "loom-native-support",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "loom-native-support-1.0.0.jar",
+          "url": "loom-native-support-1.0.0.jar",
+          "size": 8348,
+          "sha512": "f62792cd04508777aa64e467b753571eb0306bba9958249819846aa7b7dad16e203aaa5694c22d843d5920c3167344e73ca3ed054ecbe8def967d79e8dec83f1",
+          "sha256": "9cf524846e865450d90ad61fb96076a42d3d19d7982708d3ef4afb876b25e6fe",
+          "sha1": "c887bbdb3d948ad5bd6b875681c070a5991157aa",
+          "md5": "a28d537b1070d264a4e500bc7592b685"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loom-native-support-1.0.0.jar",
+          "url": "loom-native-support-1.0.0.jar",
+          "size": 8348,
+          "sha512": "f62792cd04508777aa64e467b753571eb0306bba9958249819846aa7b7dad16e203aaa5694c22d843d5920c3167344e73ca3ed054ecbe8def967d79e8dec83f1",
+          "sha256": "9cf524846e865450d90ad61fb96076a42d3d19d7982708d3ef4afb876b25e6fe",
+          "sha1": "c887bbdb3d948ad5bd6b875681c070a5991157aa",
+          "md5": "a28d537b1070d264a4e500bc7592b685"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "loom-native-support-1.0.0-sources.jar",
+          "url": "loom-native-support-1.0.0-sources.jar",
+          "size": 4026,
+          "sha512": "b87b559206f01930888c4ec26283eaeec5af9225ace23a03e24a0ea8f02b23383aa2c12eda284a39f3a4a76234eeff7d261e8d89814481cd3bc2a38df43fd491",
+          "sha256": "959a7e9b32d87b192ecbdc0d65edbb39d5575a46c92e789a95350646ce41fdf5",
+          "sha1": "11883a8b3895ce7e7cb1b32c1f27a8838481b8b8",
+          "md5": "cdf90334c7c19eee098bcfb3f0f00e4c"
+        }
+      ]
+    }
+  ]
+}
