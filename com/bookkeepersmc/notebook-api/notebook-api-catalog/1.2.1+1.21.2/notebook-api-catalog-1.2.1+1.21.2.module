@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bookkeepersmc.notebook-api",
+    "module": "notebook-api-catalog",
+    "version": "1.2.1+1.21.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "notebook-api-catalog-1.2.1+1.21.2.toml",
+          "url": "notebook-api-catalog-1.2.1+1.21.2.toml",
+          "size": 2391,
+          "sha512": "b74cbd92579eeaca91a950e4d918e167269b1e6681b3b7343b5a0b8ac9b5c9b03c99e18857cdb0bd9758a0ae2823c55d63f086187e684e37842b525208371a93",
+          "sha256": "6357eb002723c5d0de0ecc06594f134e893f773b625e1d8047887b8bb5490e2a",
+          "sha1": "a00c2ecfeaf11e033ca102cca4e118869b55e24b",
+          "md5": "ed3c756726da8eb0141f2e3a12c3ef7f"
+        }
+      ]
+    }
+  ]
+}
