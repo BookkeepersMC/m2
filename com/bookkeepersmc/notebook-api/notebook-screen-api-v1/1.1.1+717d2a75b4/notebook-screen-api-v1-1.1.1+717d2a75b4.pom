@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bookkeepersmc.notebook-api</groupId>
+  <artifactId>notebook-screen-api-v1</artifactId>
+  <version>1.1.1+717d2a75b4</version>
+  <name>Notebook Screen API (v1)</name>
+  <url>https://github.com/Bookkeepersmc/Notebook/tree/HEAD/notebook-screen-api-v1</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/Bookkeepersmc/notebook/blob/HEAD/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/Bookkeepersmc/notebook.git</connection>
+    <developerConnection>scm:git:git@github.com:Bookkeepersmc/notebook.git</developerConnection>
+    <url>https://github.com/Bookkeepersmc/notebook</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/Bookkeepersmc/notebook/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.bookkeepersmc.notebook-api</groupId>
+      <artifactId>notebook-api-base</artifactId>
+      <version>1.1.1+d12e57f2b4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

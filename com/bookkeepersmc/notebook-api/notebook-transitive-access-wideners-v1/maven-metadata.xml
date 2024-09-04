@@ -3,11 +3,12 @@
   <groupId>com.bookkeepersmc.notebook-api</groupId>
   <artifactId>notebook-transitive-access-wideners-v1</artifactId>
   <versioning>
-    <latest>1.1.0+0c28210916</latest>
-    <release>1.1.0+0c28210916</release>
+    <latest>1.1.0+379728c2b4</latest>
+    <release>1.1.0+379728c2b4</release>
     <versions>
       <version>1.1.0+0c28210916</version>
+      <version>1.1.0+379728c2b4</version>
     </versions>
-    <lastUpdated>20240904201520</lastUpdated>
+    <lastUpdated>20240904214923</lastUpdated>
   </versioning>
 </metadata>
