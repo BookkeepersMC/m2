@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.bookkeepersmc.notebook-api</groupId>
+  <artifactId>notebook-item-group-api-v1</artifactId>
+  <versioning>
+    <latest>1.0.0+c44a805a7a</latest>
+    <release>1.0.0+c44a805a7a</release>
+    <versions>
+      <version>1.0.0+c44a805a7a</version>
+    </versions>
+    <lastUpdated>20240923154947</lastUpdated>
+  </versioning>
+</metadata>

@@ -3,14 +3,15 @@
   <groupId>com.bookkeepersmc.notebook-api</groupId>
   <artifactId>notebook-api-base</artifactId>
   <versioning>
-    <latest>1.1.1+d12e57f2b4</latest>
-    <release>1.1.1+d12e57f2b4</release>
+    <latest>1.1.1+49b90ec87a</latest>
+    <release>1.1.1+49b90ec87a</release>
     <versions>
       <version>1.0.0+9adb913b6a</version>
       <version>1.0.0+9adb913b19</version>
       <version>1.1.1+d12e57f216</version>
       <version>1.1.1+d12e57f2b4</version>
+      <version>1.1.1+49b90ec87a</version>
     </versions>
-    <lastUpdated>20240904214922</lastUpdated>
+    <lastUpdated>20240923154946</lastUpdated>
   </versioning>
 </metadata>

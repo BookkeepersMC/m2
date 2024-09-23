@@ -3,14 +3,15 @@
   <groupId>com.bookkeepersmc.notebook-api</groupId>
   <artifactId>notebook-resource-conditions-v1</artifactId>
   <versioning>
-    <latest>2.1.1+379728c2b4</latest>
-    <release>2.1.1+379728c2b4</release>
+    <latest>2.1.1+49b90ec87a</latest>
+    <release>2.1.1+49b90ec87a</release>
     <versions>
       <version>1.0.0+5a54c2a86a</version>
       <version>1.0.0+5a54c2a819</version>
       <version>2.1.0+d12e57f216</version>
       <version>2.1.1+379728c2b4</version>
+      <version>2.1.1+49b90ec87a</version>
     </versions>
-    <lastUpdated>20240904214922</lastUpdated>
+    <lastUpdated>20240923154947</lastUpdated>
   </versioning>
 </metadata>
