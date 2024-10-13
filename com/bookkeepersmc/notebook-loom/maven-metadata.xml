@@ -3,8 +3,8 @@
   <groupId>com.bookkeepersmc</groupId>
   <artifactId>notebook-loom</artifactId>
   <versioning>
-    <latest>1.1.0-alpha.2</latest>
-    <release>1.1.0-alpha.2</release>
+    <latest>1.1-SNAPSHOT</latest>
+    <release>1.1.1</release>
     <versions>
       <version>1.0.2</version>
       <version>1.0-SNAPSHOT</version>
@@ -15,7 +15,9 @@
       <version>1.0.5</version>
       <version>1.0.6</version>
       <version>1.1.0-alpha.2</version>
+      <version>1.1.1</version>
+      <version>1.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20240924185021</lastUpdated>
+    <lastUpdated>20241013225155</lastUpdated>
   </versioning>
 </metadata>
